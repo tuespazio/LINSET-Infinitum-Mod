@@ -1,0 +1,233 @@
+/*
+    LINSET Infinitum Mod v1.0 por Eder Or (H@cK.32) - www.multiaportes.com
+*/
+@media screen
+{
+    body
+    {
+        margin: 0;
+        padding: 0;
+        font-family: Arial;
+        background-color: #FFF;
+    }
+    ul
+    {
+        float: left;
+        list-style-type: none;
+    }
+    a li
+    {
+        display: inline-block;
+        color: #000;
+        font-weight: bold;
+        font-size: 14px;
+        margin: 10px;
+    }
+    a li:hover
+    {
+        border-bottom: 3px solid #FFFF39;
+    }
+    a, a:active, a:visited
+    {
+        font-size: 12px;
+        text-decoration: none;
+        color: #0069BD;
+    }
+    a:hover
+    {
+        text-decoration: underline;
+    }
+    h2
+    {
+        color: #666;
+        font-size: 35px;
+    }
+    label
+    {
+        font-weight: bolder;
+    }
+    input
+    {
+        border: 1px solid #0069BD;
+        margin-left: 15px;
+    }
+    button
+    {
+        background-color: #0069BD;
+        border: 0;
+        padding: 10px;
+        font-size: 16px;
+        color: #FFF;
+        width: 100%;
+    }
+    .oculto
+    {
+        display: none !important;
+    }
+    .visible
+    {
+        display: block;
+    }
+    .c-blanco-ma
+    {
+        color: #FFF;
+        margin: 5px;
+    }
+    .mensaje-ma
+    {
+        font-size: 14px;
+    }
+    .default
+    {
+        color: #222;
+    }
+    .ok
+    {
+        color: #45BC00;
+    }
+    .err
+    {
+        color: #BC000C;
+    }
+    .hlp
+    {
+        color: #888;
+    }
+    .cj-ma
+    {
+        border: 1px solid #0069BD;
+        background-color: #FFF;
+        padding: 60px;
+        display: inline-block;
+        margin-top: 20px;
+        text-align: left;
+    }
+    .hlp-ma
+    {
+        border: 1px solid #C2C2C2;
+        padding: 30px;
+    }
+    #lnk-0-ma
+    {
+        float: right;
+        margin-right: 25px;
+    }
+    #brr0-ma
+    {
+        background-color: #858585;
+        width: 100%;
+        height: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #brr1-ma
+    {
+        background-color: #F9F9F9;
+        width: 100%;
+        height: 70px;
+        border-bottom: 1px solid #C2C2C2;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: 0 auto;
+    }
+    #brr2-ma
+    {
+        background-color: #F9F9F9;
+        width: 100%;
+        min-height: 20px;
+        border-bottom: 2px solid #C2C2C2;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        margin: 0 auto;
+        text-align: center;
+        color: #888;
+        font-size: 12px;
+    }
+    #brr2-ma a
+    {
+        color: #888;
+        margin-left: 10px;
+    }
+    #lg-ma
+    {
+        float: left;
+        display: inline-block;
+        width: 100px;
+        height: 80px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-image: url(556f80978c06043dc74dafa21921c5242993e7f8.png);
+    }
+    #et-ma
+    {
+        float: left;
+        display: inline-block;
+        margin-top: 20px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-image: url(97ab53cc99afd9b688c096d0ca6194c2918a12b6.jpg);
+    }
+    #main-inner-ma
+    {
+        border-bottom: 1px solid #C2C2C2;
+        display: inline-block;
+        background-color: #F3F2F2;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 35px;
+    }
+}
+@media screen and (max-width: 320px)
+{
+    ul, #lnk-0-ma
+    {
+        display: none;
+    }
+    input
+    {
+        width: 100%;
+    }
+    #et-ma
+    {
+        width: 250px !important;
+        height: 90px !important;
+    }
+}
+@media screen and (min-width: 321px) and (max-width: 640px)
+{
+    ul
+    {
+        display: none;
+    }
+    #et-ma
+    {
+        width: 290px !important;
+        height: 150px !important;
+    }
+}
+@media screen and (min-width: 641px) and (max-width: 800px)
+{
+    #et-ma
+    {
+        width: 410px !important;
+        height: 190px !important;
+    }
+}
+@media screen and (min-width: 801px) and (max-width: 1024px)
+{
+    #et-ma
+    {
+        width: 410px !important;
+        height: 190px !important;
+    }
+}
+@media screen and (min-width: 1025px)
+{
+    #et-ma
+    {
+        width: 410px !important;
+        height: 190px !important;
+    }
+}
